@@ -2,6 +2,8 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  GET 
+  get /  do
+    erb :index
+    
 
 end
