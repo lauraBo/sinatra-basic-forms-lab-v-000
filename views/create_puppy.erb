@@ -6,14 +6,15 @@
   </head>
   <body>
     <h1>Create Puppy</h1>
-    <form action="/piglatinize" method="POST" accept-charset="utf-8">
-      <p>Create Puppy:</p>
-      <textarea name="name"></textarea>
-      <textarea name="breed"></textarea>
-      <textarea name="age"></textarea>
+   <form method="POST" action="/displaypuppy">
+  <p>name: <input type="text" name="name"></p>
+  <p>breed: <input type="text" name="breed"></p>
+  <p>age: <input type="text" name="age"></p>
+  
+  <p><input type="submit" id="Submit"></p>
+</form>
       
-      <button type="submit" value="submit">Submit</button>
-    </form>
+    
   
   </body>
 </html>
